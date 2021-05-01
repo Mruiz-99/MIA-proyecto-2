@@ -1,0 +1,16 @@
+#encabezado{
+  background-color: rgb(8, 170, 219);
+  width: 100%;
+}
+
+#carne{
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+}
+#titulo{
+  text-align: left;
+  display: inline-block;
+  width: 65%;
+  padding-left: 110px;
+}
