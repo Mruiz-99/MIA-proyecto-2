@@ -1,0 +1,9 @@
+CREATE OR REPLACE PROCEDURE SELECT_USER
+(
+    usu IN USUARIO.usuario%TYPE,
+    passw IN USUARIO.pass%TYPE,
+    res OUT VARCHAR2
+)AS
+BEGIN
+    SELECT usuario INTO res FROM USUARIO WHERE USUARIO.usuario = usu AND USUARIO.pass = passw ;
+END SELECT_USER;
